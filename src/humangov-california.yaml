@@ -15,7 +15,7 @@ spec:
       serviceAccountName: humangov-pod-execution-role
       containers:
       - name: humangov-python-app-california
-        image: public.ecr.aws/m7y5s6h3/humangov-app:latest
+        image: CONTAINER_IMAGE
         env:
         - name: AWS_BUCKET
           value: "humangov-california-s3-225z"
